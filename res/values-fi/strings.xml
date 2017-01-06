@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (C) 2015-2016 AICP
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name" translatable="false">Aicp Extras</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Asetukset</string>
+    <string name="aicp_extras_title">Aicp-Ekstrat</string>
+    <string name="pun_title">One ROM to rule them all.</string>
+    <string name="various_shit_title">Monenlaista paskaa</string>
+    <string name="about_title">Lisätietoja</string>
+    <string name="other_title">Muut</string>
+    <string name="g_community">G+ -yhteisö</string>
+    <string name="g_plus_summary">Vieraile meidän G+ -yhteisössä.</string>
+    <string name="ui_title">Käyttöliittymä</string>
+    <string name="logo">logo</string>
+    <string name="display_animations_title">Näyttö ja animaatiot</string>
+    <string name="transparency_porn_title">Paneeliporno</string>
+    <string name="notificaitons_title">Ilmoituspalkki</string>
+    <string name="statubar_title">Tilapalkki</string>
+    <string name="lockscreen_title">Lukitusnäyttö</string>
+    <string name="aicp_downloads_title">Lataukset</string>
+    <string name="dwnld_summary">Visit the AICP download page for your device.</string>
+    <string name="aicp_gerrit_title">Gerrit</string>
+    <string name="ae_version_title">Aicp-Ekstratversio</string>
+    <string name="ae_version_summary">0.3.0</string>
+    <string name="gerrit_summary">Visit our Gerrit to know what we are working on.</string>
+    <string name="hidden_anim_activity_title">Jooga-aika!!!</string>
+    <string name="hidden_anim_more_title">LISÄÄ?</string>
+    <string name="hidden_anim_more_nice">HIENO</string>
+    <string name="continue_title">Jatka</string>
+    <string name="settings_activity_title">AE-asetukset</string>
+    <string name="recents_panel_title">Viimeiset-paneeli</string>
+
+    <string name="nothing_title">Ei mitään nähtävää vielä, siirry muualle.</string>
+
+    <!-- Switch On/Off  -->
+    <string name="switch_on_text">Päälle</string>
+    <string name="switch_off_text">Pois</string>
+
+    <!-- Permissions -->
+    <string name="storage_permission_granted">Permission granted, now you can write to storage.</string>
+    <string name="storage_permission_not_granted">Permission denied, you cannot write to storage.</string>
+
+    <!-- Change Log -->
+    <string name="changelog_title">Muutosloki</string>
+    <string name="changelog_title_summary">Selaa viimeiset muutokset AICP:ssä</string>
+    <string name="changelog_error">Muutoslokin lataaminen epäonnistui.</string>
+
+    <!-- Toast Icons -->
+    <string name="toast_icon_title">Toast icon</string>
+    <string name="toast_icon_summary">Display the app icon corresponding with the toast</string>
+
+    <!-- Brightness slider -->
+    <string name="qs_brightness_slider_title">Kirkkaudensäädin</string>
+    <string name="qs_brightness_slider_enabled">Käytössä</string>
+    <string name="qs_brightness_slider_disabled">Pois käytöstä</string>
+
+    <string name="restarting_ui">Käynnistetään uudelleen käyttöliittymää\u2026</string>
+
+    <!-- Title for the button to restart a print job. [CHAR LIMIT=25] -->
+    <string name="print_restart">Käynnistä uudelleen</string>
+
+    <!-- Force expanded notifications -->
+    <string name="force_expanded_notifications_title">Force expanded notifications</string>
+    <string name="force_expanded_notifications_summary">Available only for apps that support expanded notifications</string>
+
+    <!-- Disabling immersive mode messages -->
+    <string name="disable_immersive_message_title">Disable Immersive Mode messages</string>
+    <string name="disable_immersive_message_summary">This will hide all Immersive Mode messages</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Värin valinta</string>
+    <string name="press_color_to_apply">Valitse väri alhaalta ottaakseen sen käyttöön</string>
+    <string name="arrow_right" translatable="false">→</string>
+    <string name="arrow_down" translatable="false">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Oletus</string>
+
+    <!-- Network traffic -->
+    <string name="traffic_category">Liikenteen ilmaisimet</string>
+    <string name="traffic_title">Liikenne</string>
+    <string name="network_traffic_title">Verkkoliikenne</string>
+    <string name="show_network_traffic_state">Tilapalkissa liikenteen seuranta</string>
+    <string name="show_network_traffic_unit">Display unit</string>
+    <string name="show_network_traffic_frequency">Päivitystiheys</string>
+    <string name="show_network_traffic_disable">Poissa käytöstä</string>
+    <string name="show_network_traffic_up">Lähtevä</string>
+    <string name="show_network_traffic_down">Saapuva</string>
+    <string name="show_network_traffic_all">Lähtevä ja saapuva</string>
+    <string name="show_network_traffic_bit">Bittiä per sekunti</string>
+    <string name="show_network_traffic_byte">Tavua per sekunti</string>
+    <string name="show_network_traffic_500">500 ms</string>
+    <string name="show_network_traffic_1000">1000 ms</string>
+    <string name="show_network_traffic_1500">1500 ms</string>
+    <string name="show_network_traffic_2000">2000 ms</string>
+    <string name="network_traffic_autohide">Piilota automaattisesti</string>
+    <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
+    <string name="network_traffic_hidearrow">Piilota nuolet</string>
+    <string name="network_traffic_hidearrow_summary">Piilota nuolet liikenteen ilmaisimista</string>
+    <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Peruuta</string>
+    <string name="default_string">Oletus</string>
+
+    <!-- Superuser indicator on status bar -->
+    <string name="su_indicator">Tehokäyttäjän ilmaisin</string>
+    <string name="su_indicator_summary_on">Tehokäyttäjän ilmaisin näkyvillä istunnon ollessa aktiivisena</string>
+    <string name="su_indicator_summary_off">Toggle to show superuser indicator when a session is active</string>
+
+    <!-- Carrier Label -->
+    <string name="carrier_options">Operaattorileima</string>
+    <string name="custom_carrier_label_title">Muokkaa operaattorileimaa</string>
+    <string name="custom_carrier_label_explain">Kirjoita uusi leima. Jätä tyhjäksi palauttaakseen alkuperäiseen.</string>
+    <string name="custom_carrier_label_notset">Muokattua leimaa ei ole käytössä</string>
+    <string name="show_carrier_title">Operaattorileima</string>
+    <string name="show_carrier_disabled">Poissa käytöstä</string>
+    <string name="show_carrier_keyguard">Vain lukitusnäytössä</string>
+    <string name="show_carrier_statusbar">Vain tilapalkissa</string>
+    <string name="show_carrier_enabled">Lukitusnäyttö &amp; tilapalkki</string>
+    <string name="status_bar_carrier_color">Operaattorileiman väri</string>
+    <string name="status_bar_carrier_size">Operaattorileiman tekstin koko</string>
+
+    <!-- Battery Bar -->
+    <string name="battery_bar_title">Akkupalkki</string>
+    <string name="battery_bar">Akkupalkin sijainti</string>
+    <string name="battery_bar_no_navbar">Akkupalkin sijainti</string>
+    <string name="battery_bar_color">Akkupalkin väri</string>
+    <string name="battery_bar_charging_color">Akkupalkin latausväri</string>
+    <string name="battery_bar_battery_low_color">Akkupalkin akku vähissä -väri</string>
+    <string name="battery_bar_cat">Akkupalkin tyyli</string>
+    <string name="battery_bar_style_title">Akkupalkin ryhmittyminen</string>
+    <string name="battery_bar_thickness_title">Akkupalkin paksuus</string>
+    <string name="battery_bar_animate_title">Latausanimaatio</string>
+    <string name="battery_bar_style_regular">Tavallinen</string>
+    <string name="battery_bar_style_center_mirrored">Keskitetty</string>
+    <string name="battery_bar_style_reversed">Käänteinen</string>
+    <string name="battery_bar_use_charging_color">Muokkaa latausväriä</string>
+    <string name="battery_bar_blend_color_title">Sekoita</string>
+    <string name="battery_bar_blend_color_summary">Blend full/empty colors corresponding to battery percentage</string>
+    <string name="battery_bar_blend_color_reverse_title">Käänteinen värien suunta</string>
+    <string name="battery_bar_blend_color_reverse_summary_off">Täysi &#8594; tyhjä: punainen &#8592; vihreä &#8592; sininen &#8592; punainen</string>
+    <string name="battery_bar_blend_color_reverse_summary_on">Täysi &#8594; tyhjä: punainen &#8594; vihreä &#8594; sininen &#8594; punainen</string>
+
+    <!-- Activity and App Picker -->
+    <string name="picker_activities">Activities</string>
+    <string name="select_custom_app_title">Select custom app</string>
+    <string name="select_custom_activity_title">Select custom activity</string>
+    <string name="profile_applist_title">Applications</string>
+
+    <!-- Power menu on lock screen -->
+    <string name="powermenu_lockscreen_title">Power menu on lock screen</string>
+    <string name="powermenu_lockscreen_summary">Show power menu on the lock screen</string>
+
+    <!-- ROM Stats -->
+    <!-- Main -->
+    <string name="stats_title">Stats</string>
+    <string name="stats_summary">Opt in/out for anonymous stats.</string>
+
+    <!-- Notification -->
+    <string name="notification_ticker">Statistics opted-In</string>
+    <string name="notification_title">AICP Statistics</string>
+    <string name="notification_desc">Enable or Disable Anonymous Statistics</string>
+
+    <string name="main_link">&lt;a href=&quot;http://www.cyanogenmod.org/blog/cmstats-what-it-is-and-why-you-should-opt-in&quot;&gt;Learn More&lt;/a&gt;</string>
+
+    <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
+    <string name="anonymous_statistics_title">AICP Stats</string>
+    <string name="anonymous_statistics_summary">Help AICP by opting into anonymous statistics reporting</string>
+    <string name="anonymous_statistics_warning_title">About</string>
+    <string name="anonymous_statistics_warning">Opting into AICP Stats will allow non-personal data to be submitted to
+         our servers. The information submitted includes an unique identifier, which does not compromise your privacy or personal data.
+         The data is submitted every 7 days.\n\nFor an example of the data that is submitted, tap on Preview Data.</string>
+
+    <string name="pref_settings">Settings</string>
+    <string name="enable_reporting_title">Enable reporting</string>
+    <string name="disable_reporting_persistent">Persistent opt-out</string>
+    <string name="preview_data_title">Preview data</string>
+    <string name="preview_data_summary">%s</string>
+    <string name="view_stats_title">View Stats Page</string>
+    <string name="anonymous_learn_more">Learn more</string>
+
+    <string name="last_report_on">Last reported</string>
+    <string name="reporting_interval">Reporting interval</string>
+    <plurals name="reporting_interval_days">
+        <item quantity="one">1 day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <string name="next_report_on">Next report</string>
+
+    <!-- Anonymous Statistics - Preview -->
+    <string name="preview_id_title">Unique ID</string>
+    <string name="preview_device_title">Device</string>
+    <string name="preview_version_title">Version</string>
+    <string name="preview_country_title">Country</string>
+    <string name="preview_carrier_title">Carrier</string>
+    <string name="preview_romname_title">ROM Name</string>
+    <string name="preview_romversion_title">AICP Version</string>
+    <string name="preview_buildtype_title">AICP Build Type</string>
+
+    <!-- Double tap to sleep on lockscreen -->
+    <string name="double_tap_sleep_anywhere_title">DT2S on Lockscreen</string>
+    <string name="double_tap_sleep_anywhere_summary">Double tap lockscreen to put the device to sleep</string>
+
+    <!-- SU -->
+    <string name="cannot_get_su">Cannot get superuser access, exiting.</string>
+    <string name="cannot_get_su_start">Cannot get superuser access.</string>
+
+    <!-- Aicp logcat -->
+    <string name="logcat_title">Logcat</string>
+    <string name="kmesg_title">Kmesg</string>
+    <string name="dmesg_title">Dmesg</string>
+    <string name="log_it_title">Engage</string>
+    <string name="log_it_dialog_title">Engage</string>
+    <string name="log_that_shit_title">Log that shit</string>
+    <string name="logcat_warning">Share it or GTFO!</string>
+    <string name="share_title">Share...</string>
+    <string name="log_it_share_subject">Aicp logs</string>
+    <string name="log_it_summary">Be patient for the logs to be created</string>
+
+    <!-- AOKP custom system animations -->
+    <string name="animation_duration_default">Default</string>
+
+    <!-- Toast Animation -->
+    <string name="toast_animation_title">Toast animation</string>
+    <string name="toast_none_animation">None</string>
+    <string name="toast_default_animation">Default</string>
+    <string name="toast_fade_animation">Fade</string>
+    <string name="toast_SlideRight_animation">Slide right</string>
+    <string name="toast_SlideLeft_animation">Slide left</string>
+    <string name="toast_Xylon_animation">Xylon</string>
+    <string name="toast_Toko_animation">Toko</string>
+    <string name="toast_Tn_animation">Tn</string>
+    <string name="toast_Honami_animation">Honami</string>
+    <string name="toast_FastFade_animation">Fast fade</string>
+    <string name="toast_GrowFade_animation">Grow fade</string>
+    <string name="toast_GrowFadeCenter_animation">Grow fade center</string>
+    <string name="toast_GrowFadeBottom_animation">Grow fade bottom</string>
+    <string name="toast_Translucent_animation">Translucent</string>
+    <string name="toast_SlideLeftRight_animation">Slide left to right</string>
+    <string name="toast_SlideRightLeft_animation">Slide right to left</string>
+
+    <!-- Power menu Animations  -->
+    <string name="power_menu_animation_title">Power menu animation</string>
+    <string name="power_menu_animation_summary">Change the enter/exit animation of the power menu</string>
+    <string name="power_menu_animation_dialog_title">Select power menu animation</string>
+    <string name="power_menu_animation_aosp">AOSP (default)</string>
+    <string name="power_menu_animation_bottom">Bottom</string>
+    <string name="power_menu_animation_top">Top</string>
+    <string name="power_menu_animation_rotate">Rotation</string>
+    <string name="power_menu_animation_xylon">Fly</string>
+    <string name="power_menu_animation_slide">Slide</string>
+    <string name="power_menu_animation_turn">Turn</string>
+    <string name="power_menu_animation_fly">Glow</string>
+    <string name="power_menu_animation_card">3D</string>
+    <string name="power_menu_animation_translucent_top">Translucent (top)</string>
+    <string name="power_menu_animation_translucent_bottom">Translucent (bottom)</string>
+
+    <!-- Statusbar AICP logo -->
+    <string name="status_bar_logo_category_title">Statusbar logo</string>
+    <string name="status_bar_aicp_logo_title">AICP logo</string>
+    <string name="status_bar_aicp_logo_summary">Enable to show AICP logo on the left side of statusbar</string>
+    <string name="status_bar_aicp_logo_color">AICP logo color</string>
+    <string name="status_bar_aicp_logo_position">Logo location</string>
+    <string name="status_bar_aicp_logo_position_summary">Choose which side to display the logo on, left or right</string>
+    <string name="status_bar_logo_position_right">Right</string>
+    <string name="status_bar_logo_position_left">Left</string>
+
+    <!-- Launch music player when headset is connected -->
+    <string name="headset_connect_player_title">Launch music app</string>
+    <string name="headset_connect_player_summary">Launch the default music app when headset is connected</string>
+
+    <!-- Camera shutter sound -->
+    <string name="camera_sounds_title">Camera shutter sound</string>
+    <string name="camera_sounds_summary">Disabling may not work on 3rd party camera apps and in HDR+ mode</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Screenshot sound</string>
+    <string name="screenshot_sound_summary">Plays sound effect when screenshot is taken</string>
+
+    <string name="brightness_icon_title">Brightness icon </string>
+    <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
+
+    <!-- QS shade opacity -->
+    <string name="qs_transparent_shade">QS shade opacity</string>
+
+    <!-- QS header transparency -->
+    <string name="qs_transparent_header">QS header transparency</string>
+
+    <!-- QS tile labels visibility -->
+    <string name="qs_menu_item_titles">QS tile labels</string>
+    <string name="qs_menu_item_titles_summaryOn">Labels are shown</string>
+    <string name="qs_menu_item_titles_summaryOff">Labels are hidden</string>
+
+    <!-- Volume dialog opacity -->
+    <string name="volume_dialog_transparency">Volume dialog opacity</string>
+
+    <!-- Power menu and dialogs opacity -->
+    <string name="power_menu_transparency">Power/reboot menu opacity</string>
+
+    <!-- Power/reboot dialogs dim amount -->
+    <string name="power_menu_dialog_dim">Power/reboot dialog dim background amount</string>
+
+    <!-- Notifications transparency -->
+    <string name="notifications_transparency">Notifications transparency</string>
+
+    <!-- Lockscreen Torch -->
+    <string name="keyguard_torch_title">Lockscreen torch</string>
+    <string name="keyguard_torch_summary">Longpress power button while screen is off to turn on flashlight</string>
+
+    <!-- Quick settings tiles columns and rows config -->
+    <string name="qs_rows_portrait_title">Rows (portrait)</string>
+    <string name="qs_rows_landscape_title">Rows (landscape)</string>
+    <string name="qs_columns_title">Columns</string>
+    <string name="sysui_qqs_count_title">Small QS tiles</string>
+
+    <!-- Tiles animation style  -->
+    <string name="qs_tile_animation_style_title">Tiles animation style</string>
+    <string name="qs_tile_animation_duration_title">Tiles animation duration</string>
+    <string name="qs_tile_animation_interpolator_title">Tiles animation interpolator</string>
+    <string name="qs_tile_animation_style_off">No animation</string>
+    <string name="qs_tile_animation_style_flip">Flip</string>
+    <string name="qs_tile_animation_style_rotate">Rotate</string>
+    <string name="qs_tile_animation_duration_low">Low</string>
+    <string name="qs_tile_animation_duration_default">Default</string>
+    <string name="qs_tile_animation_duration_fast">Fast</string>
+    <string name="qs_tile_animation_duration_superfast">SuperFast</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">Linear</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Accelerate</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Decelerate</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Accelerate decelerate</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Bounce</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Overshoot</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipate</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticipate overshoot</string>
+    <string name="qs_set_animation_style">%1$s</string>
+    <string name="qs_set_animation_duration">%1$s</string>
+    <string name="qs_set_animation_interpolator">%1$s</string>
+
+    <!-- App Exit Toast -->
+    <string name="app_exit_toast">Press back again to exit</string>
+
+    <!-- Volume dialog stroke settings -->
+    <string name="volume_dialog_stroke_title">Volume dialog stroke</string>
+    <string name="volume_dialog_stroke_disabled">Disabled</string>
+    <string name="volume_dialog_stroke_accent">Accent color</string>
+    <string name="volume_dialog_stroke_custom">Custom color</string>
+    <string name="volume_dialog_stroke_color_title">Volume dialog stroke color</string>
+    <string name="volume_dialog_stroke_thickness_title">Volume dialog stroke thickness</string>
+    <string name="volume_dialog_corner_radius_title">Volume dialog corner radius</string>
+    <string name="volume_dialog_dash_width_title">Volume dialog stroke dash width</string>
+    <string name="volume_dialog_dash_gap_title">Volume dialog stroke dash gap</string>
+
+    <!-- QS stroke settings -->
+    <string name="qs_stroke_title">QS shade stroke</string>
+    <string name="qs_stroke_disabled">Disabled</string>
+    <string name="qs_stroke_accent">Accent color</string>
+    <string name="qs_stroke_custom">Custom color</string>
+    <string name="qs_stroke_color_title">QS shade stroke color</string>
+    <string name="qs_stroke_thickness_title">QS shade stroke thickness</string>
+    <string name="qs_corner_radius_title">QS shade corner radius</string>
+    <string name="qs_dash_width_title">QS stroke dash width</string>
+    <string name="qs_dash_gap_title">QS stroke dash gap</string>
+
+    <!--Preference Categories-->
+    <string name="anim">Animation Tweaks</string>
+    <string name="indicators">Status Bar Indicators</string>
+    <string name="quicksettings_tiles_category">QuickSettings Panel Configurations</string>
+    <string name="header_tweaks">Header Tweaks</string>
+    <string name="Misc">Miscellaneous</string>
+    <string name="qs">Quick Settings Tweaks</string>
+    <string name="vol_diag">Volume Dialog Tweaks</string>
+    <string name="power">Power Menu Tweaks</string>
+    <string name="cab">Clear All Button Tweaks</string>
+    <string name="visuals">Recents Extra Visuals</string>
+
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+    <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+
+    <!-- AE settings -->
+    <string name="ae_settings_title">AicpExtras settings</string>
+    <string name="ae_custom_colors_title">Custom colors</string>
+    <string name="ae_custom_colors_summaries">Use the settings below to modify the AE appearance</string>
+    <string name="ae_drawer_opacity_title">Navigation drawer opacity</string>
+    <string name="ae_header_bg_image_color_title">Navigation header bg image color</string>
+    <string name="ae_drawer_bg_color_title">Navigation drawer bg color</string>
+    <string name="ae_settings_restore_defaults_title">Restore defaults</string>
+    <string name="values_restored_title">Values restored</string>
+    <string name="ae_header_bg_image_opacity_title">Navigation drawer header bg image opacity</string>
+    <string name="ae_nav_drawer_checked_text_title">Selected item text color</string>
+    <string name="ae_nav_drawer_unchecked_text_title">Item text color</string>
+    <string name="ae_settings_summary_title">Custom AE summary text in Settings application</string>
+    <string name="custom_summary_title">Custom AE summary</string>
+    <string name="custom_summary_explain">Please enter a new summary. Leave blank to revert to stock text.</string>
+    <string name="custom_summary_notset">Custom ROM personalizations</string>
+
+    <!-- Statusbar 4G LTE switch -->
+    <string name="show_fourg_title">Show 4G instead of LTE</string>
+    <string name="show_fourg_summary">Replaces LTE statusbar indicator with 4G</string>
+
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
+    <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
+
+    <!-- Advanced data tile -->
+    <string name="qs_advanced_data_title">Data tile easy toggle</string>
+    <string name="qs_advanced_data_summary">Enable one tap action to enable or disable data</string>
+
+    <!-- SystemUI restart prompt -->
+    <string name="systemui_restart_title">WARNING</string>
+    <string name="systemui_restart_message">SystemUI will be restarted so that selected setting can be applied correctly.</string>
+
+    <!-- Status Bar Ticker -->
+    <string name="ticker_screen_title">Ticker</string>
+    <string name="ticker_title">Status Bar Ticker</string>
+    <string name="ticker_screen_summary">Customize the ticker style</string>
+    <string name="ticker_summary">Enable the old status bar ticker</string>
+    <string name="ticker_restore_defaults_title">Restore defaults</string>
+    <string name="text_title">Text</string>
+    <string name="icon_title">Icon</string>
+    <string name="colors_title">Colors</string>
+
+    <!-- Optional screenshot type -->
+    <string name="screenshot_type_title">Screenshot type</string>
+    <string name="screenshot_type_fullscreen">Take fullscreen screenshots</string>
+    <string name="screenshot_type_partial">Drag selection on the area you want to take as a screenshot</string>
+
+    <!-- Screenshot delay -->
+    <string name="powermenu_screenshot_delay_title">Screenshot delay</string>
+    <string name="powermenu_screenshot_delay_message">Delay currently set to %1$s seconds</string>
+
+    <!-- Lock screen Am/Pm switch -->
+    <string name="lock_screen_hide_ampm_title">Hide AM/PM</string>
+    <string name="lock_screen_hide_ampm_summary_on">AM/PM hidden</string>
+    <string name="lock_screen_hide_ampm_summary_off">AM/PM shown</string>
+
+    <!-- Hostname setting -->
+    <string name="device_hostname">Device hostname</string>
+
+    <!-- Disable quick settings on lock screen switch -->
+    <string name="lockscreen_qs_disabled_title">Quick settings disabled on lock screen</string>
+    <string name="lockscreen_qs_disabled_summary">Disable expanding quick settings and keyguard shortcuts on secure lock screens</string>
+
+    <!-- Disable music track title in QS tile -->
+    <string name="qs_music_tile_track_optional_title">Music tile track title</string>
+    <string name="qs_music_tile_track_optional_summary">Show the music track title as the QS tile title</string>
+
+    <!-- Immersive Recents -->
+    <string name="immersive_recents_title">Immersive Recents</string>
+    <string name="immersive_recents_summary">Change the view of the recents screen</string>
+    <string name="immersive_recents_dialog_title">Select recents view</string>
+    <string name="immersive_recents_default">Default</string>
+    <string name="immersive_recents_fullscreen">Fullscreen</string>
+    <string name="immersive_recents_statusbar">Statusbar only</string>
+    <string name="immersive_recents_navbar">Navbar only</string>
+
+    <!-- Recents Membar -->
+    <string name="systemui_recents_mem_display_title">Show Memory Bar</string>
+    <string name="systemui_recents_mem_display_summaryOn">RAM bar enabled</string>
+    <string name="systemui_recents_mem_display_summaryOff">RAM bar disabled</string>
+
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Enable clear all button</string>
+    <string name="show_clear_all_recents_button_summary">Show the clear all button when using recents</string>
+    <string name="recents_clear_all_location_title">Clear all button location</string>
+    <string name="recents_clear_all_location_top_right">Top right</string>
+    <string name="recents_clear_all_location_top_left">Top left</string>
+    <string name="recents_clear_all_location_top_center">Top center</string>
+    <string name="recents_clear_all_location_bottom_right">Bottom right</string>
+    <string name="recents_clear_all_location_bottom_left">Bottom left</string>
+    <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+
+    <!-- Heads up settings -->
+    <string name="nav_headsup_title">Headsup notifications</string>
+    <string name="headsup_settings_category">Headsup notifications</string>
+    <string name="headsup_settings_title">Enable headsup notifications</string>
+    <string name="headsup_settings_summary">To allow applications to display interactive notifications in a pop-up window on your screen, enable Headsup notifications.</string>
+    <string name="summary_heads_up_enabled">Headsup notifications are enabled</string>
+    <string name="summary_heads_up_disabled">Headsup notifications are disabled</string>
+
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Time out</string>
+    <string name="heads_up_time_out_summary">Headsup notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
+    <string name="heads_up_time_out_2sec">2 seconds</string>
+    <string name="heads_up_time_out_4sec">4 seconds</string>
+    <string name="heads_up_time_out_5sec">5 seconds</string>
+    <string name="heads_up_time_out_6sec">6 seconds</string>
+    <string name="heads_up_time_out_8sec">8 seconds</string>
+    <string name="heads_up_time_out_10sec">10 seconds</string>
+
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Snooze timer</string>
+    <string name="heads_up_snooze_summary_one_minute">Swiping up on headsup notifications will snooze heads up from that application for 1 minute</string>
+    <string name="heads_up_snooze_summary">Swiping up on headsup notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
+    <string name="heads_up_snooze_disabled">Disabled</string>
+    <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
+    <string name="heads_up_snooze_1min">1 minute</string>
+    <string name="heads_up_snooze_3min">3 minutes</string>
+    <string name="heads_up_snooze_5min">5 minutes</string>
+    <string name="heads_up_snooze_10min">10 minutes</string>
+    <string name="heads_up_snooze_15min">15 minutes</string>
+    <string name="heads_up_snooze_20min">20 minutes</string>
+    <string name="heads_up_snooze_30min">30 minutes</string>
+    <string name="heads_up_snooze_60min">60 minutes</string>
+
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Lockscreen battery info</string>
+    <string name="lockscreen_battery_info_summary">Display negotiated charger max current-voltage and battery temperature on lockscreen while charging</string>
+
+    <!-- Battery Saver easy toggle -->
+    <string name="qs_battery_easy_toggle_title">Battery tile easy toggle</string>
+    <string name="qs_battery_easy_toggle_summary">Enable one tap action to enable or disable Battery Saver</string>
+
+    <!-- BT easy toggle -->
+    <string name="qs_bt_easy_toggle_title">Bluetooth tile easy toggle</string>
+    <string name="qs_bt_easy_toggle_summary">Enable one tap action to enable or disable Bluetooth</string>
+
+    <!-- WiFi easy toggle -->
+    <string name="qs_wifi_easy_toggle_title">WiFi tile easy toggle</string>
+    <string name="qs_wifi_easy_toggle_summary">Enable one tap action to enable or disable WiFi</string>
+
+    <!-- OmniSwitch Recents -->
+    <string name="aosp_recents_title">AICP recents</string>
+    <string name="omniswitch_recents_title">OmniSwitch recents</string>
+    <string name="recents_use_omniswitch_title">Use for a recents alterative</string>
+    <string name="recents_use_omniswitch_summary">Use OmniSwitch instead of the default recents view</string>
+    <string name="omniswitch_start_settings_title">OmniSwitch settings</string>
+    <string name="omniswitch_start_settings_summary">View the settings for OmniSwitch</string>
+    <string name="omniswitch_first_time_title">Warning</string>
+    <string name="omniswitch_first_time_message">If using OmniSwitch as recents alterative, make sure you have OmniSwitch enabled</string>
+
+    <!-- MediaScanner behavior on boot -->
+    <string name="media_scanner_on_boot_title">MediaScanner behavior on boot</string>
+    <string name="media_scanner_on_boot_enabled">Scan media</string>
+    <string name="media_scanner_on_boot_ask">Ask to scan (notification)</string>
+    <string name="media_scanner_on_boot_disabled">Do not scan media</string>
+
+    <!-- SlimSizer  -->
+    <string name="listsystem">list</string>
+    <string name="sizer_title">App remover</string>
+    <string name="caution">Caution!</string>
+    <string name="sizer_message_startup">This tool allows you to delete system apps. Use with caution and only delete apps you know are safe to be removed.</string>
+    <string name="cancel">Cancel</string>
+    <string name="sizer_message_delete">Are you sure you want to delete this app?</string>
+    <string name="btn_delete">Delete selected APPs now!</string>
+    <string name="delete_progress_title">Deleting</string>
+    <string name="delete_progress">Selected files are being deleted...</string>
+    <string name="delete_success">Deleted</string>
+    <string name="delete_fail">Unable to delete</string>
+    <string name="btn_profile">Profile</string>
+    <string name="sizer_message_sdnowrite">Cannot write to SD Card.</string>
+    <string name="sizer_message_sdnoread">Cannot read SD Card.</string>
+    <string name="sizer_message_filesuccess">Created profile.</string>
+    <string name="sizer_message_filefail">Failed to create profile.</string>
+    <string name="sizer_message_noselect">Nothing selected.</string>
+    <string name="system_app_remover">System App Remover</string>
+
+    <!-- Extensions settings -->
+    <string name="extensions_title">System extensions</string>
+
+    <!-- Bluetooth status -->
+    <string name="bluetooth_battery_title">Show Bluetooth battery status</string>
+    <string name="bluetooth_battery_summary">Show battery status for the currently connected bluetooth device, if availible.</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Swipe to screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe three fingers to take screenshot</string>
+
+    <!-- Blur UI -->
+    <string name="nav_blur_ui_title">Blur UI</string>
+    <string name="blur_ui_category_title">Blur personalizations</string>
+    <string name="blurred_status_bar_expanded_enabled_pref">Blur StatusBar Background</string>
+    <string name="blurred_status_bar_expanded_enabled_pref_summary">Blur the background when you pull down the status bar</string>
+    <string name="translucent_notifications_pref">Translucent Notifications</string>
+    <string name="translucent_notifications_pref_summary">Set the background of notifications translucent</string>
+    <string name="translucent_header_pref">Blurred Status Bar Header </string>
+    <string name="translucent_header_pref_summary">Blur the background of status bar header</string>
+    <string name="translucent_quick_settings_pref">Translucent Expanded StatusBar</string>
+    <string name="translucent_quick_settings_pref_summary">Make qs panel background transparent</string>
+    <string name="transluency_level_universal">Transluency level</string>
+    <string name="blur_expstatus_cat">Expanded StatusBar </string>
+    <string name="blur_notifications_cat">Notifications</string>
+    <string name="blur_header_cat">StatusBar Header</string>
+    <string name="blur_qs_cat">Quick Settings</string>
+    <string name="blur_recents_cat">Recents</string>
+    <string name="blurred_recent_app_enabled_pref">Blur Recents background </string>
+    <string name="blurred_recent_app_enabled_pref_summary">Background of recents apps list gets blurred</string>
+    <string name="blurred_scale">Blur scale</string>
+    <string name="blurred_scale_summary">Quality of blur image</string>
+    <string name="blurred_radius">Blur radius</string>
+    <string name="blurred_radius_summary">Amount of blur</string>
+    <string name="blur_cat_notice">Notice</string>
+    <string name="blur_cat_notice_summary">Blur personalizations are automatically disabled during Keyguard view!</string>
+    <string name="blurred_scale">Blur Scale</string>
+    <string name="blurred_scale_summary">Quality of blur image</string>
+    <string name="blurred_radius">Blur Radius</string>
+    <string name="blurred_radius_summary">Amount of blur</string>
+</resources>
